@@ -1,0 +1,47 @@
+@import "/styles/variables.scss";
+
+.container {
+  margin-top: 30px;
+  color: white;
+  h1 {
+    color: red;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style-type: none;
+      font-family: "Source Sans Pro";
+
+      // padding: 0px 70px 10px 320px;
+      li {
+        padding: 0px 30px;
+
+        a {
+          font-family: "Monomaniac";
+
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+        }
+      }
+    }
+    .btn1 {
+      font-size: 18px;
+      color: white;
+      padding: 5px 18px;
+      background: #3094f2;
+      border: 3px solid #1c5e9d;
+      box-shadow: -5px 5px 0px #1c5e9d, -4px 4px 0px #1c5e9d,
+        -3px 3px 0px #1c5e9d, -2px 2px 0px #1c5e9d, -1px 1px 0px #1c5e9d;
+      border-radius: 10px;
+      margin-left: 40px;
+    }
+  }
+}

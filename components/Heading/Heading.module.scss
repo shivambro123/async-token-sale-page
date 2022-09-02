@@ -1,0 +1,285 @@
+@import "/styles/variables.scss";
+
+.container {
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 10rem;
+  .maindiv {
+    position: relative;
+    width: 800px;
+    margin-top: 60px;
+    h1 {
+      width: 100%;
+      max-width: 539px;
+      font-family: "Monomaniac";
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 100px;
+      line-height: 120%;
+      color: #ffffff;
+      margin: 100px 0px 70px 40px;
+
+      .live {
+        color: #3094f2;
+      }
+    }
+    .imagesec {
+      position: absolute;
+      top: 30px;
+      left: 500px;
+    }
+
+    .btn {
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 700;
+      // font-size: 18px;
+      color: white;
+      background: #3094f2;
+      border: 3px solid #1c5e9d;
+      box-shadow: -5px 5px 0px #1c5e9d, -4px 4px 0px #1c5e9d,
+        -3px 3px 0px #1c5e9d, -2px 2px 0px #1c5e9d, -1px 1px 0px #1c5e9d;
+      border-radius: 10px;
+      padding: 14px 18px;
+      text-transform: uppercase;
+      margin-left: 40px;
+    }
+    .btnread {
+      box-sizing: border-box;
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 120%;
+      /* identical to box height, or 22px */
+
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      box-shadow: -5px 5px 0px #fff, -4px 4px 0px #fff, -3px 3px 0px #fff,
+        -2px 2px 0px #fff, -1px 1px 0px #fff;
+      text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+      margin-left: 20px;
+      border: 3px solid #ffffff;
+      border-radius: 10px;
+      padding: 14px 18px;
+      background: transparent;
+    }
+  }
+
+  .content {
+    margin-top: 103px;
+    color: white;
+    width: 485px;
+    height: 636px;
+    border: 1px solid #3094f2;
+    border-radius: 20px;
+    margin-left: 50px;
+
+    .inner {
+      padding: 20px;
+
+      h3 {
+        font-family: "Monomaniac";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        color: white;
+        margin: 26px 0px 43px 2px;
+      }
+      .rectangle {
+        display: flex;
+        margin-bottom: 18px;
+
+        .box {
+          width: 85px;
+          height: 99px;
+          background: #ffffff;
+          box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+          margin: auto;
+          color: black;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          .number {
+            font-family: "Monomaniac";
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 120%;
+            /* or 42px */
+
+            letter-spacing: -0.01em;
+
+            color: #000000;
+          }
+          .days {
+            font-family: "Monomaniac";
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 120%;
+            /* or 24px */
+
+            text-align: center;
+            letter-spacing: -0.01em;
+
+            color: #3094f2;
+          }
+        }
+        .colon {
+          &::after {
+            // content: ":";
+            content: ":";
+            position: absolute;
+            font-family: Poppins;
+
+            /* height: 125px; */
+            width: 50px;
+            right: -55px;
+            top: 14px;
+            color: #d9d9d9;
+
+            font-size: 43px;
+          }
+        }
+      }
+
+      p {
+        // font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        margin: 4px 0px;
+        color: #ffffff;
+        // text-transform: uppercase;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 19px;
+      }
+      .fund {
+        width: 228px;
+        height: 51.21px;
+        background-color: white;
+        margin-left: 130px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .fundperc {
+          font-style: normal;
+          font-family: "Source Sans Pro", sans-serif;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 120%;
+          /* or 19px */
+
+          letter-spacing: -0.01em;
+
+          color: #000000;
+        }
+      }
+      .overlap {
+        position: absolute;
+        bottom: -23px;
+        right: 20px;
+      }
+      .mainback {
+        width: 420px;
+        height: 35px;
+        background: #d9d9d9;
+        border-radius: 40px;
+        position: relative;
+        margin-bottom: 40px;
+        .rect {
+          border-radius: 40px;
+          width: 413px;
+          height: 30px;
+          background: linear-gradient(
+            180deg,
+            rgba(48, 148, 242, 0.5) 0%,
+            rgba(28, 94, 157, 0.5) 100%
+          );
+          position: absolute;
+          top: 3px;
+          left: 4px;
+
+          .indiv {
+            position: absolute;
+            background: linear-gradient(180deg, #3094f2 0%, #1c5e9d 100%);
+            border-radius: 40px;
+            width: 317px;
+            height: 27px;
+            top: 2px;
+            left: 2px;
+          }
+        }
+      }
+      .SoftContent {
+        display: flex;
+        padding: 18px 0px;
+
+        .Soft {
+          p {
+            font-family: "Source Sans Pro", sans-serif;
+
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120%;
+            /* or 19px */
+
+            letter-spacing: -0.01em;
+
+            color: #c7c7c7;
+          }
+        }
+        .softusd {
+          p {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120%;
+            /* or 19px */
+            margin-left: 20px;
+            letter-spacing: -0.01em;
+
+            color: #3094f2;
+          }
+        }
+      }
+      .join {
+        text-align: center;
+        font-family: "Monomaniac";
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 120%;
+        /* identical to box height, or 22px */
+
+        letter-spacing: -0.01em;
+
+        /* white */
+
+        color: #ffffff;
+        padding: 14px 18px;
+        gap: 10px;
+        background: linear-gradient(180deg, #2a82d7 0%, #1c5e9d 100%);
+        border-radius: 5px;
+
+        border-radius: 10px;
+      }
+    }
+  }
+}
